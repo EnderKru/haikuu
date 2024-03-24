@@ -1,11 +1,10 @@
 import './banner.css';
-import { Header } from '../templates/header';
 
-export function Banner() {
+function Banner() {
     return (
-      <div class='banner'>
-        <Header/>
+      <div className='banner'>
+        
       </div>
     )
   }
-  
+export default Banner
