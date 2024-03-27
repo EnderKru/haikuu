@@ -1,0 +1,101 @@
+.conteiner{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+.user, .personalData, .aboutYou{
+    background-color: #120F0F;
+    border-radius: 20px;
+    padding: 20px 30px ;
+}
+.user, .emailBlock, .passwordBlock, .favorBlock, .historyBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userInfo{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+.userName{
+    display: block;
+}
+.userNickname{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--main-font);
+    letter-spacing: 1px;
+}
+.user img{
+    width: 70px;
+}
+.userEdit, .change, .view{
+    color: var(--white-color);
+    font-size: 24px;
+    font-weight: 300;
+    background: none;
+    border: none;
+}
+.parsDataTask, .aboutTask{
+    font-family: var(--main-font);
+    font-size: 36px;    
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.email, .password{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.email img{
+    width: 60px;
+}
+.password img{
+    width: 30px;
+}
+.password img{
+    margin-left: 10px;
+}
+.passwordInfo{
+    margin-left: 11px;
+}
+
+.task{
+    font-size: 28px;
+    font-weight: 300;
+}
+.sub{
+    color: #969191;
+    font-size: 16px;
+    font-weight: 300;
+}
+.personalInfo, .aboutInfo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+
+
+@media screen and (max-width:475px) {
+    .user, .emailBlock, .passwordBlock, .favorBlock, .historyBlock{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .password img{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+    .passwordInfo{
+        margin-left: 0px;
+        margin-right: 45px;
+    }
+    .emailBlock, .passwordBlock, .favorBlock, .historyBlock{
+        border-bottom: 2px solid #ffffff; /* Замените #000 на цвет вашей полосы */
+        padding-bottom: 5px;
+        border-width: 1px;
+    }
+}
