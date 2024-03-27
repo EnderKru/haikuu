@@ -26,10 +26,17 @@
         display: flex;
         column-gap: 100px;
     }
-    &__right{
+    &__right1{
+        column-gap: 22px;
+    }
+    &__view-text{
         display: flex;
-        column-gap: 30px;
+        column-gap: 20px;
         justify-content: space-between;
+
+    }
+    &__info__genre__text, &__info__rating--star svg, &__info__studio-text{
+        margin-top:50px;
     }
 
 }

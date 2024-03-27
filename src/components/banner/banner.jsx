@@ -23,7 +23,7 @@ function Banner() {
                       <h1 className={'banner__info__rating-title'}>
                           Rating
                       </h1>
-                      <br/> <span className={'banner__info__rating-star'}>
+                       <span className={'banner__info__rating-star'}>
                               <svg width="150" height="30" viewBox="0 0 150 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z" fill="#FF9900"/>
 <path d="M45 0L48.3677 10.3647H59.2658L50.4491 16.7705L53.8168 27.1353L45 20.7295L36.1832 27.1353L39.5509 16.7705L30.7342 10.3647H41.6323L45 0Z" fill="#FF9900"/>
@@ -38,7 +38,7 @@ function Banner() {
                       <h1 className={'banner__info__genre-title'}>
                           Genre
                       </h1>
-                      <br/><p className={'banner__info__genre__text'}>
+                      <p className={'banner__info__genre__text'}>
                           Sport, Drama, School,<br/> Comedy
                       </p>
                   </div>
@@ -46,25 +46,27 @@ function Banner() {
                       <h1 className={'banner__info__studio-title'}>
                           Studio
                       </h1>
-                      <br/><p className={'banner__info__studio-text'}>
+                      <p className={'banner__info__studio-text'}>
                           Production I.G
                       </p>
                   </div>
               </div>
-              <div className={'banner__right'}>
-                  <div className={'banner__left-view'}>
-                      <img src={season1} className={'banner__view-img'} alt="season"/>
-                      <p className={'banner__view-text'}>
-                          1st season
-                      </p>
-
-                      <div className={'banner__right-view'}>
-                          <img src={season2} className={'banner__view-img'} alt="season"/>
+              <div className={'banner__right1'}>
+                  <div className={'banner__right'}>
+                      <div className={'banner__left-view'}>
+                          <img src={season1} className={'banner__view-img'} alt="season"/>
                           <p className={'banner__view-text'}>
-                              2ed season
+                              1st season
                           </p>
-                      </div>
 
+                          <div className={'banner__right-view'}>
+                              <img src={season2} className={'banner__view-img'} alt="season"/>
+                              <p className={'banner__view-text'}>
+                                  2ed season
+                              </p>
+                          </div>
+
+                      </div>
                   </div>
               </div>
           </div>

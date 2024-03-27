@@ -27,10 +27,16 @@
   display: flex;
   column-gap: 100px;
 }
-.banner__right {
+.banner__right1 {
+  column-gap: 22px;
+}
+.banner__view-text {
   display: flex;
-  column-gap: 30px;
+  column-gap: 20px;
   justify-content: space-between;
+}
+.banner__info__genre__text, .banner__info__rating--star svg, .banner__info__studio-text {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=banner.css.map */
