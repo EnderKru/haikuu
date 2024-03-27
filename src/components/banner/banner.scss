@@ -1,0 +1,35 @@
+.banner{
+    background-image: url('/src/assets/images/baner.svg');
+    background-size: cover;
+    height: 140vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    &__info{
+        padding: 300px  50px  ;
+    }
+    &__title{
+        font-size: 100px;
+    }
+    &__text{
+        font-size: 30px;
+    }
+    &__japan{
+        color: #FF9900;
+    }
+    &__seasen{
+        display: flex;
+        column-gap: 300px;
+        padding: 0 50px ;
+    }
+    &__left{
+        display: flex;
+        column-gap: 100px;
+    }
+    &__right{
+        display: flex;
+        column-gap: 30px;
+        justify-content: space-between;
+    }
+
+}

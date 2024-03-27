@@ -1,6 +1,11 @@
-header{
-    z-index: 10;
+.header {
+  padding: 40px;
+  z-index: 4;
+  position: absolute;
 }
-.logo{
-    
+.header__logo {
+  font-size: 72px;
+  margin-left: 1350px;
 }
+
+/*# sourceMappingURL=header.css.map */

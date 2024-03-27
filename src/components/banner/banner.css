@@ -1,8 +1,36 @@
-.banner{
-    background-image: url('/src/assets/images/template.svg') ;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat; 
-    z-index: 1;
+.banner {
+  background-image: url("/src/assets/images/baner.svg");
+  background-size: cover;
+  height: 140vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
+.banner__info {
+  padding: 300px 50px;
+}
+.banner__title {
+  font-size: 100px;
+}
+.banner__text {
+  font-size: 30px;
+}
+.banner__japan {
+  color: #FF9900;
+}
+.banner__seasen {
+  display: flex;
+  column-gap: 300px;
+  padding: 0 50px;
+}
+.banner__left {
+  display: flex;
+  column-gap: 100px;
+}
+.banner__right {
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=banner.css.map */

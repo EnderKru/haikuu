@@ -1,13 +1,19 @@
 import {NavLink} from 'react-router-dom'
-import logo from '../../assets/images/logo.svg'
+import img1 from '../../assets/images/img1.svg'
 import React from 'react';
-import './header.css'
+import './header.scss'
+import { IoPersonCircleOutline } from "react-icons/io5";
+
 function Header(){
     return(
-        <header>
+        <header className={'header'}>
             <NavLink to = '/'>
-                <img className='logo' scr={logo}/>
+                <img src={img1} className={'header__img'} alt=""/>
             </NavLink>
+
+            <span className={'header__logo'}>
+                <IoPersonCircleOutline />
+            </span>
         </header>
     )
 }
