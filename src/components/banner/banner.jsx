@@ -23,7 +23,7 @@ function Banner() {
                       <h1 className={'banner__info__rating-title'}>
                           Rating
                       </h1>
-                      <br/> <span className={'banner__info__rating-star'}>
+                      <span className={'banner__info__rating-star'}>
                               <svg width="150" height="30" viewBox="0 0 150 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z" fill="#FF9900"/>
 <path d="M45 0L48.3677 10.3647H59.2658L50.4491 16.7705L53.8168 27.1353L45 20.7295L36.1832 27.1353L39.5509 16.7705L30.7342 10.3647H41.6323L45 0Z" fill="#FF9900"/>
@@ -31,7 +31,6 @@ function Banner() {
 <path d="M105 0L108.368 10.3647H119.266L110.449 16.7705L113.817 27.1353L105 20.7295L96.1832 27.1353L99.5509 16.7705L90.7342 10.3647H101.632L105 0Z" fill="#FF9900"/>
 <path d="M135 0L138.368 10.3647H149.266L140.449 16.7705L143.817 27.1353L135 20.7295L126.183 27.1353L129.551 16.7705L120.734 10.3647H131.632L135 0Z" fill="#D9D9D9"/>
 </svg>
-
                           </span>
                   </div>
                   <div className={'banner__info-genre'}>

@@ -1,10 +1,15 @@
 .header {
     padding: 40px;
     z-index: 4;
+    width: 100%;
     position: absolute;
-&__logo{
-    font-size: 72px;
-    margin-left: 1350px;
+    display: flex;
+    justify-content: space-between;
 
-}
+    &__logo img{
+        width: 150px;
+    }
+    &__userIcon img{
+        width: 50px;
+    }
 }

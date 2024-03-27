@@ -15,7 +15,8 @@
         font-size: 30px;
     }
     &__japan{
-        color: #FF9900;
+        color: var(--yellow-color);
+        font-weight: 500;
     }
     &__seasen{
         display: flex;
