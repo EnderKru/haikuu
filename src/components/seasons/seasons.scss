@@ -1,0 +1,37 @@
+.season{
+  padding: 20px 0;
+  &__card{
+    width: 200px;
+    height: 650px;
+  }
+  &__block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    column-gap: 100px;
+    padding: 0 50px;
+  }
+  &__title{
+    font-size:64px;
+    margin-bottom: 20px;
+    &-card{
+      margin-bottom: 10px;
+      font-family: var(--main-font);
+    }
+  }
+  &__text{
+    line-height: 20.8px;
+  }
+  &__img{
+    width: 260px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .season__block{
+    padding: 0 50px 0 0 ;
+  }
+}
+
+

@@ -1,11 +1,25 @@
 .header {
   padding: 40px;
   z-index: 4;
+  width: 100%;
   position: absolute;
+  display: flex;
+  justify-content: space-between;
 }
-.header__logo {
-  font-size: 72px;
-  margin-left: 1350px;
+.header__logo img {
+  width: 150px;
+}
+.header__userIcon img {
+  width: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .header__userIcon img {
+    width: 30px;
+  }
+  .header__logo img {
+    width: 100px;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

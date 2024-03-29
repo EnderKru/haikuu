@@ -1,75 +1,55 @@
 import './banner.scss';
-import season1 from'../../assets/images/season1.svg'
-import season2 from'../../assets/images/season2.svg'
+// import season1 from'../../assets/images/season1.svg'
+// import season2 from'../../assets/images/season2.svg'
 
 function Banner() {
     return (
-      <div className='banner'>
+     <div className='banner'>
+         <div className="conteiner">
           <div className={'banner__info'}>
               <h1 className={'banner__japan'}>
                   アニメ 配給
               </h1>
               <h1 className={'banner__title'}>
                   Anime Haikuu
-              </h1>
+              < /h1>
               <p className={'banner__text'}>
                   Hinato Shoyo decides to take up volleyball <br/> seriously after watching this game several <br/> times. Now he is reaching new achievements
               </p>
           </div>
-
-          <div className={'banner__seasen'}>
-              <div className={'banner__left'}>
-                  <div className={'banner__info__rating'}>
-                      <h1 className={'banner__info__rating-title'}>
-                          Rating
-                      </h1>
-                       <span className={'banner__info__rating-star'}>
-                              <svg width="150" height="30" viewBox="0 0 150 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z" fill="#FF9900"/>
-<path d="M45 0L48.3677 10.3647H59.2658L50.4491 16.7705L53.8168 27.1353L45 20.7295L36.1832 27.1353L39.5509 16.7705L30.7342 10.3647H41.6323L45 0Z" fill="#FF9900"/>
-<path d="M75 0L78.3677 10.3647H89.2658L80.4491 16.7705L83.8168 27.1353L75 20.7295L66.1832 27.1353L69.5509 16.7705L60.7342 10.3647H71.6323L75 0Z" fill="#FF9900"/>
-<path d="M105 0L108.368 10.3647H119.266L110.449 16.7705L113.817 27.1353L105 20.7295L96.1832 27.1353L99.5509 16.7705L90.7342 10.3647H101.632L105 0Z" fill="#FF9900"/>
-<path d="M135 0L138.368 10.3647H149.266L140.449 16.7705L143.817 27.1353L135 20.7295L126.183 27.1353L129.551 16.7705L120.734 10.3647H131.632L135 0Z" fill="#D9D9D9"/>
+             <div className={'banner__info-bottom'}>
+                 <div className={'banner__rating1'}>
+                     <h1 className={'banner__info-rating'}>
+                         Rating
+                     </h1>
+                     <span className={'banner__span'}>
+                         <svg width="225" height="45" viewBox="0 0 225 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.5 0L27.5516 15.5471H43.8988L30.6736 25.1558L35.7252 40.7029L22.5 31.0942L9.27483 40.7029L14.3264 25.1558L1.10123 15.5471H17.4484L22.5 0Z" fill="#FF9900"/>
+<path d="M67.5 0L72.5516 15.5471H88.8988L75.6736 25.1558L80.7252 40.7029L67.5 31.0942L54.2748 40.7029L59.3264 25.1558L46.1012 15.5471H62.4484L67.5 0Z" fill="#FF9900"/>
+<path d="M112.5 0L117.552 15.5471H133.899L120.674 25.1558L125.725 40.7029L112.5 31.0942L99.2748 40.7029L104.326 25.1558L91.1012 15.5471H107.448L112.5 0Z" fill="#FF9900"/>
+<path d="M157.5 0L162.552 15.5471H178.899L165.674 25.1558L170.725 40.7029L157.5 31.0942L144.275 40.7029L149.326 25.1558L136.101 15.5471H152.448L157.5 0Z" fill="#FF9900"/>
+<path d="M202.5 0L207.552 15.5471H223.899L210.674 25.1558L215.725 40.7029L202.5 31.0942L189.275 40.7029L194.326 25.1558L181.101 15.5471H197.448L202.5 0Z" fill="#D9D9D9"/>
 </svg>
-
-                          </span>
-                  </div>
-                  <div className={'banner__info-genre'}>
-                      <h1 className={'banner__info__genre-title'}>
-                          Genre
-                      </h1>
-                      <p className={'banner__info__genre__text'}>
-                          Sport, Drama, School,<br/> Comedy
-                      </p>
-                  </div>
-                  <div className={'banner__info-studio'}>
-                      <h1 className={'banner__info__studio-title'}>
-                          Studio
-                      </h1>
-                      <p className={'banner__info__studio-text'}>
-                          Production I.G
-                      </p>
-                  </div>
-              </div>
-              <div className={'banner__right1'}>
-                  <div className={'banner__right'}>
-                      <div className={'banner__left-view'}>
-                          <img src={season1} className={'banner__view-img'} alt="season"/>
-                          <p className={'banner__view-text'}>
-                              1st season
-                          </p>
-
-                          <div className={'banner__right-view'}>
-                              <img src={season2} className={'banner__view-img'} alt="season"/>
-                              <p className={'banner__view-text'}>
-                                  2ed season
-                              </p>
-                          </div>
-
-                      </div>
-                  </div>
-              </div>
-          </div>
+                     </span>
+                 </div>
+                 <div className={'banner__genre'}>
+                     <h1 className={'banner__info-rating'}>
+                         Genre
+                     </h1>
+                     <p className={'banner__info-text'}>
+                         Sport, Drama, School, Comedy
+                     </p>
+                 </div>
+                 <div className={'banner__studio'}>
+                     <h1 className={'banner__info-rating'}>
+                         Studio
+                     </h1>
+                     <p className={'banner__info-text'}>
+                         Production I.G
+                     </p>
+                 </div>
+             </div>
+         </div>
       </div>
     )
   }

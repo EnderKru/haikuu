@@ -1,0 +1,37 @@
+.season {
+  padding: 20px 0;
+}
+.season__card {
+  width: 200px;
+  height: 650px;
+}
+.season__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 100px;
+  padding: 0 50px;
+}
+.season__title {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.season__title-card {
+  margin-bottom: 10px;
+  font-family: var(--main-font);
+}
+.season__text {
+  line-height: 20.8px;
+}
+.season__img {
+  width: 260px;
+  height: 450px;
+}
+
+@media screen and (max-width: 430px) {
+  .season__block {
+    padding: 0 50px 0 0;
+  }
+}
+
+/*# sourceMappingURL=seasons.css.map */

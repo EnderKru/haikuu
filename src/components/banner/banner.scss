@@ -6,7 +6,10 @@
     background-repeat: no-repeat;
     z-index: 1;
     &__info{
-        padding: 300px  50px  ;
+        display: block;
+        align-items: end;
+        width: 60%;
+        margin-top: 200px;
     }
     &__title{
         font-size: 100px;
@@ -14,29 +17,97 @@
     &__text{
         font-size: 30px;
     }
-    &__japan{
-        color: #FF9900;
+    &__japan {
+        color: var(--yellow-color);
+        font-weight: 500;
     }
-    &__seasen{
+    &__info-bottom{
         display: flex;
-        column-gap: 300px;
-        padding: 0 50px ;
-    }
-    &__left{
-        display: flex;
-        column-gap: 100px;
-    }
-    &__right1{
-        column-gap: 22px;
-    }
-    &__view-text{
-        display: flex;
-        column-gap: 20px;
+        flex-wrap: wrap;
         justify-content: space-between;
-
+        margin-top: 140px;
     }
-    &__info__genre__text, &__info__rating--star svg, &__info__studio-text{
-        margin-top:50px;
+    &__info-rating{
+        margin-bottom: 10px;
+        font-family: var(--main-font);
+    }
+    &__info-text{
+        font-family: var(--main-font);
+    }
+}
+@media screen and (max-width: 1150px){
+    .banner__info-bottom{
+        margin-top: 100px;
+    }
+    .banner__title{
+        font-size: 50px;
+    }
+    .banner__text{
+        font-size: 20px;
+    }
+    .banner{
+        height: 120vh;
+    }
+}
+@media screen and (max-width: 900px){
+    .banner__info-bottom{
+        margin-top: 60px;
+    }
+    .banner__info{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner{
+        height: 90vh;
+    }
+    svg{
+        width: 100px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .banner__info-rating{
+        font-size: 20px;
+        margin-top: 100px;
     }
 
+}
+
+@media screen and (max-width: 430px) {
+    .banner__text{
+        width: 100%;
+    }
+    .banner__info-bottom{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 420px){
+    .banner__info-rating{
+        margin: 20px 0 0 0;
+    }
+    .banner__title{
+        font-size: 40px;
+    }
+    .banner__text{
+        font-size: 20px;
+    }
+    .banner__info-rating{
+        font-size: 15px;
+    }
+    .banner__info-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .banner__text{
+        display: none;
+    }
+    .banner__info{
+        margin-top: 100px ;
+    }
 }

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*font-family: "Kanit" sans-serif;*/
+  background-color: #1E2027;
+  color: #FEFCFC;
+}
+
+:root {
+  --main-font:"Inter", sans-serif;
+  --orange-color: #FF4900;
+  --yellow-color: #FF9900;
+  --black-color: #0A0A0B;
+  --white-color: #FEFCFC;
+}
+
+button:active {
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.conteiner {
+  padding: 50px;
+}
+
+/*# sourceMappingURL=common.css.map */

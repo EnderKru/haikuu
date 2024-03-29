@@ -1,0 +1,54 @@
+.main {
+  padding: 20px 0;
+}
+.main__block {
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main__title {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.main__left-title {
+  color: var(--yellow-color);
+  display: flex;
+  justify-content: center;
+}
+.main__right-title {
+  color: var(--yellow-color);
+  display: flex;
+  justify-content: center;
+}
+.main__item {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.main__list {
+  list-style-type: none;
+  width: 40%;
+}
+.main__item1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: var(--main-font);
+}
+.main__list1 {
+  list-style-type: none;
+  margin-top: 10px;
+}
+.main__item1 {
+  margin-bottom: 20px;
+}
+.main__row {
+  display: flex;
+}
+
+@media screen and (max-width: 430px) {
+  .main__block {
+    padding: 0 50px 0 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

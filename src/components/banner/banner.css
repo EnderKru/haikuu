@@ -7,7 +7,10 @@
   z-index: 1;
 }
 .banner__info {
-  padding: 300px 50px;
+  display: block;
+  align-items: end;
+  width: 60%;
+  margin-top: 200px;
 }
 .banner__title {
   font-size: 100px;
@@ -16,27 +19,94 @@
   font-size: 30px;
 }
 .banner__japan {
-  color: #FF9900;
+  color: var(--yellow-color);
+  font-weight: 500;
 }
-.banner__seasen {
+.banner__info-bottom {
   display: flex;
-  column-gap: 300px;
-  padding: 0 50px;
-}
-.banner__left {
-  display: flex;
-  column-gap: 100px;
-}
-.banner__right1 {
-  column-gap: 22px;
-}
-.banner__view-text {
-  display: flex;
-  column-gap: 20px;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 140px;
 }
-.banner__info__genre__text, .banner__info__rating--star svg, .banner__info__studio-text {
-  margin-top: 50px;
+.banner__info-rating {
+  margin-bottom: 10px;
+  font-family: var(--main-font);
+}
+.banner__info-text {
+  font-family: var(--main-font);
+}
+
+@media screen and (max-width: 1150px) {
+  .banner__info-bottom {
+    margin-top: 100px;
+  }
+  .banner__title {
+    font-size: 50px;
+  }
+  .banner__text {
+    font-size: 20px;
+  }
+  .banner {
+    height: 120vh;
+  }
+}
+@media screen and (max-width: 900px) {
+  .banner__info-bottom {
+    margin-top: 60px;
+  }
+  .banner__info {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .banner {
+    height: 90vh;
+  }
+  svg {
+    width: 100px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .banner__info-rating {
+    font-size: 20px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .banner__text {
+    width: 100%;
+  }
+  .banner__info-bottom {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .banner__info-rating {
+    margin: 20px 0 0 0;
+  }
+  .banner__title {
+    font-size: 40px;
+  }
+  .banner__text {
+    font-size: 20px;
+  }
+  .banner__info-rating {
+    font-size: 15px;
+  }
+  .banner__info-text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .banner__text {
+    display: none;
+  }
+  .banner__info {
+    margin-top: 100px;
+  }
 }
 
 /*# sourceMappingURL=banner.css.map */
