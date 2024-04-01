@@ -9,6 +9,7 @@
   &__title{
     font-size: 64px;
     margin-bottom: 20px;
+    font-family: var(--main-font);
   }
   &__left-title{
     color:var(--yellow-color);
@@ -23,6 +24,7 @@
   &__item{
     font-size: 30px;
     margin-bottom: 10px;
+    font-family: var(--main-font);
   }
   &__list{
     list-style-type: none;

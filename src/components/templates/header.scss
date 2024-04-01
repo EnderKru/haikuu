@@ -13,6 +13,69 @@
         width: 50px;
     }
 }
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .custom-tooltip .mini-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .custom-tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 30%;
+    margin-left: -55px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+
+  .custom-tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto; 
+  }
+.tooltiptext {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up:hover, .log-in:hover {
+
+    background-color:#FFDC33;
+    color:black;
+    border-color: black;
+    font-weight: 500;
+}
+.log-in {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #ffffff;
+    border-radius: 89px;
+    padding: 10px 24px;
+    position: relative;
+    font-weight: lighter;
+    transition: all 0.5s ease;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
 
 @media screen and (max-width: 600px){
     .header__userIcon img{

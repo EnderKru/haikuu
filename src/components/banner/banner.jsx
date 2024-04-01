@@ -12,7 +12,7 @@ function Banner() {
               </h1>
               <h1 className={'banner__title'}>
                   Anime Haikuu
-              < /h1>
+              </h1>
               <p className={'banner__text'}>
                   Hinato Shoyo decides to take up volleyball <br/> seriously after watching this game several <br/> times. Now he is reaching new achievements
               </p>

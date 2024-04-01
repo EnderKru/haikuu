@@ -1,4 +1,6 @@
 import classes from './profilePage.module.css'
+import ava from '../../assets/images/ava.svg'
+import { ProfileHeader } from '../../components/templates/profileHeader/profHeader'
 
 export function ProfilePage(){
     function editProfile(){
@@ -9,10 +11,11 @@ export function ProfilePage(){
     }
     return(
         <div className={classes.profBody}>
+            <ProfileHeader/>
             <div className={classes.conteiner}>
                 <div className={classes.user}>
                     <div className={classes.userInfo}>
-                        <img src="../src/assets/фото/image 8person.png" alt="Mini Photo" />
+                        <img src={ava} alt="Mini Photo" />
                         <div className={classes.userName}>
                             <div className={classes.userNickname}>NickName</div>
                         </div>

@@ -7,8 +7,8 @@
     z-index: 1;
     &__info{
         display: block;
-        align-items: end;
-        width: 60%;
+        align-items: center;
+        width: fit-content;
         margin-top: 200px;
     }
     &__title{
@@ -38,6 +38,9 @@
 @media screen and (max-width: 1150px){
     .banner__info-bottom{
         margin-top: 100px;
+    }
+    .banner__japan{
+        font-size: 28px;
     }
     .banner__title{
         font-size: 50px;
@@ -69,21 +72,21 @@
     }
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 440px){
     .banner__info-rating{
         font-size: 20px;
-        margin-top: 100px;
+        // margin-top: 100px;
     }
-
-}
-
-@media screen and (max-width: 430px) {
     .banner__text{
         width: 100%;
     }
     .banner__info-bottom{
-        margin-top: 30px;
+        flex-direction: wrap;
     }
+    .banner__text{
+        display: none;
+    }
+
 }
 @media screen and (max-width: 420px){
     .banner__info-rating{

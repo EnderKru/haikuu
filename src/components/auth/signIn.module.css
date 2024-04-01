@@ -1,0 +1,78 @@
+.h1{
+    font-family: var(--main-font);
+    margin-bottom: 25px;
+    color: var(--orange-color);
+    font-weight: 800;
+}
+.loginBox{
+    background-color: #1E2027;
+    padding: 40px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputs input{
+    margin-bottom: 10px;
+    width: fit-content;
+    background-color: var(--white-color);
+    padding: 10px 30px;
+    border-radius: 12px;
+    color: var(--black-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    border: 0;
+}
+.button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: var(--yellow-color);
+    font-family: var(--main-font);
+    padding: 10px 30px;
+    border-radius: 12px;
+    color: var(--black-color);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: 0;
+}
+.signup{
+    font-weight: 100;
+}
+.link{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: var(--main-font);
+    text-decoration: none;
+    color: var(--orange-color);
+}
+
+@media screen and (max-width: 500px) {
+
+    .h1{
+        font-size: 28px;
+    }
+    .inputs input{
+        font-size: 14px;
+    }
+    .button{
+        width: 230px;
+    }
+    .register{
+        padding: 25px;
+    }
+}

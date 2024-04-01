@@ -8,12 +8,12 @@ import {
 } from "../pages"
 
 export const router = createBrowserRouter([
-  {
+  { 
     path: '/',
     element: <MainPage />
   },
   {
-    path: '/registration',
+    path: '/login',
     element: <SignInPage/>
   },
   {
@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
     element: <NoPage />
   },
   {
-    path: '/login',
+    path: '/registration',
     element: <SignUpPage/>
   },
   {

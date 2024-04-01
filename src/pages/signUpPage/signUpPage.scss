@@ -1,0 +1,15 @@
+.sign-up > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up{
+    background-image: url('../../assets/images/bg\ karasuno.svg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    margin: 20px;
+    width: 150px;
+}

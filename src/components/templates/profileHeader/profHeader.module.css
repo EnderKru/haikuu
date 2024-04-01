@@ -1,0 +1,96 @@
+.conteiner{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    background-color: #120F0F;
+
+}
+.logo{
+    width: 150px;
+}
+.customToolTip{
+position: relative;
+display: inline-block;
+cursor: pointer;
+margin-left: 40px;
+}
+.customToolTip img{
+width: 50px;
+}
+.customToolTip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    margin-left: -55px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.customToolTip:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.logOut{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px 15px;
+    position: relative;
+    font-weight: lighter;
+    transition: all 0.5s ease;
+    margin: 5px 0px 5px 0
+}
+.logOut:hover{
+    background-color: var(--accent-color);
+    color:black;
+    border-color: black;
+    font-weight: 500;
+}
+.rightSide{
+    display: flex;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    column-gap: 25px;
+    list-style: none;
+
+}
+.navText {
+    font-size: 22px;
+}
+.navText::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #FFDC33;
+    position: absolute;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
+}
+.navText::after:hover{
+    transform: scaleX(1);
+}
+.navText{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 1020px) {
+    .nav ul{
+        display: none;
+    }
+}
